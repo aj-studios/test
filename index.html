@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Check daily wholesale vegetable mandi rates across Kolhapur, Pune, Mumbai, Nashik and Nagpur.">
+  <meta name="theme-color" content="#176b42">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="RozBhav | Daily mandi rates">
+  <meta property="og:description" content="Daily wholesale vegetable prices from markets across Maharashtra.">
+  <meta property="og:url" content="https://rozbhav.in/">
+  <meta property="og:image" content="https://rozbhav.in/assets/logo.svg">
+  <title>RozBhav | Daily mandi rates</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="css/style.css" as="style">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="RozBhav home">
+      <img src="assets/logo.svg" alt="" width="36" height="36">
+      <span>Roz<span class="brand-accent">Bhav</span></span>
+    </a>
+    <label class="language-control">
+      <span class="visually-hidden" data-i18n="languageLabel">Language</span>
+      <select id="language-select" aria-label="Language">
+        <option value="en">English</option>
+        <option value="hi">हिन्दी</option>
+        <option value="mr">मराठी</option>
+      </select>
+    </label>
+  </header>
+
+  <main class="page-shell">
+    <section class="intro" aria-labelledby="page-title">
+      <p class="eyebrow" data-i18n="eyebrow">DAILY WHOLESALE PRICES</p>
+      <h1 id="page-title" data-i18n="title">Vegetable mandi rates</h1>
+      <p class="intro-copy" data-i18n="subtitle">Today’s prices from markets across Maharashtra.</p>
+    </section>
+
+    <section class="market-tools" aria-label="Market and vegetable filters">
+      <div class="field market-field">
+        <label for="market-select" data-i18n="marketLabel">Market</label>
+        <select id="market-select">
+          <option value="kolhapur">Kolhapur</option>
+          <option value="pune">Pune</option>
+          <option value="mumbai">Mumbai (Vashi APMC)</option>
+          <option value="nashik">Nashik</option>
+          <option value="nagpur">Nagpur</option>
+        </select>
+      </div>
+      <div class="field search-field">
+        <label for="vegetable-search" data-i18n="searchLabel">Find a vegetable</label>
+        <input id="vegetable-search" type="search" autocomplete="off" placeholder="Search vegetables" data-i18n-placeholder="searchPlaceholder">
+      </div>
+    </section>
+
+    <div class="rates-heading">
+      <h2 data-i18n="ratesTitle">Today’s rates</h2>
+      <p id="updated-at" class="updated-at" aria-live="polite"></p>
+    </div>
+
+    <section id="rates-list" class="rates-list" aria-label="Vegetable rates" aria-live="polite" aria-busy="true">
+      <div class="status-message" role="status" data-i18n="loading">Loading today’s rates…</div>
+    </section>
+
+    <p class="source-note" data-i18n="sourceNote">Prices are wholesale mandi rates and may differ from retail shop prices. Source: Agmarknet / Government of India.</p>
+  </main>
+
+  <footer class="site-footer">
+    <span>© <span id="year"></span> RozBhav</span>
+    <nav aria-label="Footer">
+      <a href="#about" data-i18n="about">About</a>
+      <a href="mailto:hello@rozbhav.in" data-i18n="contact">Contact</a>
+    </nav>
+  </footer>
+</body>
+</html>

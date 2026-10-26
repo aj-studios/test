@@ -1,0 +1,106 @@
+{
+  "sampleData": true,
+  "notice": "FAKE SAMPLE DATA for Stage 1 preview only. Not live market prices. Replace with verified data before publication.",
+  "markets": {
+    "kolhapur": {
+      "updated": "2026-10-13",
+      "vegetables": [
+        { "id": "tomato", "name": "Tomato", "today": { "modal": 2400, "min": 1800, "max": 3000 }, "yesterday": { "modal": 2600, "min": 2000, "max": 3200 } },
+        { "id": "onion", "name": "Onion", "today": { "modal": 2800, "min": 2200, "max": 3400 }, "yesterday": { "modal": 2700, "min": 2100, "max": 3300 } },
+        { "id": "potato", "name": "Potato", "today": { "modal": 1800, "min": 1400, "max": 2200 }, "yesterday": { "modal": 1800, "min": 1400, "max": 2200 } },
+        { "id": "brinjal", "name": "Brinjal", "today": { "modal": 2200, "min": 1600, "max": 2800 }, "yesterday": { "modal": 2300, "min": 1700, "max": 2900 } },
+        { "id": "cabbage", "name": "Cabbage", "today": { "modal": 1400, "min": 1000, "max": 1800 }, "yesterday": { "modal": 1300, "min": 900, "max": 1700 } },
+        { "id": "cauliflower", "name": "Cauliflower", "today": { "modal": 2600, "min": 2000, "max": 3200 }, "yesterday": { "modal": 2800, "min": 2200, "max": 3400 } },
+        { "id": "okra", "name": "Okra (Bhendi)", "today": { "modal": 4200, "min": 3400, "max": 5000 }, "yesterday": { "modal": 4000, "min": 3200, "max": 4800 } },
+        { "id": "green_chilli", "name": "Green Chilli", "today": { "modal": 5200, "min": 4200, "max": 6200 }, "yesterday": { "modal": 5400, "min": 4400, "max": 6400 } },
+        { "id": "carrot", "name": "Carrot", "today": { "modal": 3000, "min": 2400, "max": 3600 }, "yesterday": { "modal": 2900, "min": 2300, "max": 3500 } },
+        { "id": "cucumber", "name": "Cucumber", "today": { "modal": 2000, "min": 1500, "max": 2500 }, "yesterday": { "modal": 2100, "min": 1600, "max": 2600 } },
+        { "id": "spinach", "name": "Spinach", "today": { "modal": 1800, "min": 1300, "max": 2300 }, "yesterday": { "modal": 1700, "min": 1200, "max": 2200 } },
+        { "id": "coriander", "name": "Coriander", "today": { "modal": 5000, "min": 4000, "max": 6000 }, "yesterday": { "modal": 5200, "min": 4200, "max": 6200 } },
+        { "id": "garlic", "name": "Garlic", "today": { "modal": 9000, "min": 7600, "max": 10400 }, "yesterday": { "modal": 8800, "min": 7400, "max": 10200 } },
+        { "id": "ginger", "name": "Ginger", "today": { "modal": 12000, "min": 10000, "max": 14000 }, "yesterday": { "modal": 12500, "min": 10500, "max": 14500 } },
+        { "id": "capsicum", "name": "Capsicum", "today": { "modal": 4500, "min": 3600, "max": 5400 }, "yesterday": { "modal": 4500, "min": 3600, "max": 5400 } }
+      ]
+    },
+    "pune": {
+      "updated": "2026-10-13",
+      "vegetables": [
+        { "id": "tomato", "name": "Tomato", "today": { "modal": 2600, "min": 2000, "max": 3200 }, "yesterday": { "modal": 2500, "min": 1900, "max": 3100 } },
+        { "id": "onion", "name": "Onion", "today": { "modal": 3000, "min": 2400, "max": 3600 }, "yesterday": { "modal": 3100, "min": 2500, "max": 3700 } },
+        { "id": "potato", "name": "Potato", "today": { "modal": 1900, "min": 1500, "max": 2300 }, "yesterday": { "modal": 1850, "min": 1450, "max": 2250 } },
+        { "id": "brinjal", "name": "Brinjal", "today": { "modal": 2400, "min": 1800, "max": 3000 }, "yesterday": { "modal": 2300, "min": 1700, "max": 2900 } },
+        { "id": "cabbage", "name": "Cabbage", "today": { "modal": 1500, "min": 1100, "max": 1900 }, "yesterday": { "modal": 1600, "min": 1200, "max": 2000 } },
+        { "id": "cauliflower", "name": "Cauliflower", "today": { "modal": 2800, "min": 2200, "max": 3400 }, "yesterday": { "modal": 2700, "min": 2100, "max": 3300 } },
+        { "id": "okra", "name": "Okra (Bhendi)", "today": { "modal": 4500, "min": 3700, "max": 5300 }, "yesterday": { "modal": 4700, "min": 3900, "max": 5500 } },
+        { "id": "green_chilli", "name": "Green Chilli", "today": { "modal": 5500, "min": 4500, "max": 6500 }, "yesterday": { "modal": 5300, "min": 4300, "max": 6300 } },
+        { "id": "carrot", "name": "Carrot", "today": { "modal": 3200, "min": 2600, "max": 3800 }, "yesterday": { "modal": 3300, "min": 2700, "max": 3900 } },
+        { "id": "cucumber", "name": "Cucumber", "today": { "modal": 2200, "min": 1700, "max": 2700 }, "yesterday": { "modal": 2100, "min": 1600, "max": 2600 } },
+        { "id": "spinach", "name": "Spinach", "today": { "modal": 2000, "min": 1500, "max": 2500 }, "yesterday": { "modal": 2100, "min": 1600, "max": 2600 } },
+        { "id": "coriander", "name": "Coriander", "today": { "modal": 5200, "min": 4200, "max": 6200 }, "yesterday": { "modal": 5000, "min": 4000, "max": 6000 } },
+        { "id": "garlic", "name": "Garlic", "today": { "modal": 9400, "min": 8000, "max": 10800 }, "yesterday": { "modal": 9200, "min": 7800, "max": 10600 } },
+        { "id": "ginger", "name": "Ginger", "today": { "modal": 12500, "min": 10500, "max": 14500 }, "yesterday": { "modal": 12000, "min": 10000, "max": 14000 } },
+        { "id": "capsicum", "name": "Capsicum", "today": { "modal": 4800, "min": 3900, "max": 5700 }, "yesterday": { "modal": 4900, "min": 4000, "max": 5800 } }
+      ]
+    },
+    "mumbai": {
+      "updated": "2026-10-13",
+      "vegetables": [
+        { "id": "tomato", "name": "Tomato", "today": { "modal": 2800, "min": 2200, "max": 3400 }, "yesterday": { "modal": 3000, "min": 2400, "max": 3600 } },
+        { "id": "onion", "name": "Onion", "today": { "modal": 3200, "min": 2600, "max": 3800 }, "yesterday": { "modal": 3100, "min": 2500, "max": 3700 } },
+        { "id": "potato", "name": "Potato", "today": { "modal": 2100, "min": 1700, "max": 2500 }, "yesterday": { "modal": 2200, "min": 1800, "max": 2600 } },
+        { "id": "brinjal", "name": "Brinjal", "today": { "modal": 2600, "min": 2000, "max": 3200 }, "yesterday": { "modal": 2500, "min": 1900, "max": 3100 } },
+        { "id": "cabbage", "name": "Cabbage", "today": { "modal": 1700, "min": 1300, "max": 2100 }, "yesterday": { "modal": 1600, "min": 1200, "max": 2000 } },
+        { "id": "cauliflower", "name": "Cauliflower", "today": { "modal": 3000, "min": 2400, "max": 3600 }, "yesterday": { "modal": 3200, "min": 2600, "max": 3800 } },
+        { "id": "okra", "name": "Okra (Bhendi)", "today": { "modal": 4800, "min": 4000, "max": 5600 }, "yesterday": { "modal": 4600, "min": 3800, "max": 5400 } },
+        { "id": "green_chilli", "name": "Green Chilli", "today": { "modal": 5800, "min": 4800, "max": 6800 }, "yesterday": { "modal": 6000, "min": 5000, "max": 7000 } },
+        { "id": "carrot", "name": "Carrot", "today": { "modal": 3400, "min": 2800, "max": 4000 }, "yesterday": { "modal": 3300, "min": 2700, "max": 3900 } },
+        { "id": "cucumber", "name": "Cucumber", "today": { "modal": 2400, "min": 1900, "max": 2900 }, "yesterday": { "modal": 2500, "min": 2000, "max": 3000 } },
+        { "id": "spinach", "name": "Spinach", "today": { "modal": 2200, "min": 1700, "max": 2700 }, "yesterday": { "modal": 2100, "min": 1600, "max": 2600 } },
+        { "id": "coriander", "name": "Coriander", "today": { "modal": 5500, "min": 4500, "max": 6500 }, "yesterday": { "modal": 5700, "min": 4700, "max": 6700 } },
+        { "id": "garlic", "name": "Garlic", "today": { "modal": 9800, "min": 8400, "max": 11200 }, "yesterday": { "modal": 9600, "min": 8200, "max": 11000 } },
+        { "id": "ginger", "name": "Ginger", "today": { "modal": 13000, "min": 11000, "max": 15000 }, "yesterday": { "modal": 13500, "min": 11500, "max": 15500 } },
+        { "id": "capsicum", "name": "Capsicum", "today": { "modal": 5200, "min": 4300, "max": 6100 }, "yesterday": { "modal": 5100, "min": 4200, "max": 6000 } }
+      ]
+    },
+    "nashik": {
+      "updated": "2026-10-13",
+      "vegetables": [
+        { "id": "tomato", "name": "Tomato", "today": { "modal": 2200, "min": 1600, "max": 2800 }, "yesterday": { "modal": 2300, "min": 1700, "max": 2900 } },
+        { "id": "onion", "name": "Onion", "today": { "modal": 2500, "min": 1900, "max": 3100 }, "yesterday": { "modal": 2400, "min": 1800, "max": 3000 } },
+        { "id": "potato", "name": "Potato", "today": { "modal": 1750, "min": 1350, "max": 2150 }, "yesterday": { "modal": 1800, "min": 1400, "max": 2200 } },
+        { "id": "brinjal", "name": "Brinjal", "today": { "modal": 2100, "min": 1500, "max": 2700 }, "yesterday": { "modal": 2200, "min": 1600, "max": 2800 } },
+        { "id": "cabbage", "name": "Cabbage", "today": { "modal": 1300, "min": 900, "max": 1700 }, "yesterday": { "modal": 1400, "min": 1000, "max": 1800 } },
+        { "id": "cauliflower", "name": "Cauliflower", "today": { "modal": 2500, "min": 1900, "max": 3100 }, "yesterday": { "modal": 2400, "min": 1800, "max": 3000 } },
+        { "id": "okra", "name": "Okra (Bhendi)", "today": { "modal": 4000, "min": 3200, "max": 4800 }, "yesterday": { "modal": 4200, "min": 3400, "max": 5000 } },
+        { "id": "green_chilli", "name": "Green Chilli", "today": { "modal": 5000, "min": 4000, "max": 6000 }, "yesterday": { "modal": 4900, "min": 3900, "max": 5900 } },
+        { "id": "carrot", "name": "Carrot", "today": { "modal": 2900, "min": 2300, "max": 3500 }, "yesterday": { "modal": 2800, "min": 2200, "max": 3400 } },
+        { "id": "cucumber", "name": "Cucumber", "today": { "modal": 1900, "min": 1400, "max": 2400 }, "yesterday": { "modal": 1800, "min": 1300, "max": 2300 } },
+        { "id": "spinach", "name": "Spinach", "today": { "modal": 1700, "min": 1200, "max": 2200 }, "yesterday": { "modal": 1800, "min": 1300, "max": 2300 } },
+        { "id": "coriander", "name": "Coriander", "today": { "modal": 4800, "min": 3800, "max": 5800 }, "yesterday": { "modal": 4900, "min": 3900, "max": 5900 } },
+        { "id": "garlic", "name": "Garlic", "today": { "modal": 8800, "min": 7400, "max": 10200 }, "yesterday": { "modal": 9000, "min": 7600, "max": 10400 } },
+        { "id": "ginger", "name": "Ginger", "today": { "modal": 11800, "min": 9800, "max": 13800 }, "yesterday": { "modal": 12000, "min": 10000, "max": 14000 } },
+        { "id": "capsicum", "name": "Capsicum", "today": { "modal": 4300, "min": 3400, "max": 5200 }, "yesterday": { "modal": 4400, "min": 3500, "max": 5300 } }
+      ]
+    },
+    "nagpur": {
+      "updated": "2026-10-13",
+      "vegetables": [
+        { "id": "tomato", "name": "Tomato", "today": { "modal": 2500, "min": 1900, "max": 3100 }, "yesterday": { "modal": 2400, "min": 1800, "max": 3000 } },
+        { "id": "onion", "name": "Onion", "today": { "modal": 2900, "min": 2300, "max": 3500 }, "yesterday": { "modal": 2800, "min": 2200, "max": 3400 } },
+        { "id": "potato", "name": "Potato", "today": { "modal": 1850, "min": 1450, "max": 2250 }, "yesterday": { "modal": 1900, "min": 1500, "max": 2300 } },
+        { "id": "brinjal", "name": "Brinjal", "today": { "modal": 2300, "min": 1700, "max": 2900 }, "yesterday": { "modal": 2400, "min": 1800, "max": 3000 } },
+        { "id": "cabbage", "name": "Cabbage", "today": { "modal": 1450, "min": 1050, "max": 1850 }, "yesterday": { "modal": 1400, "min": 1000, "max": 1800 } },
+        { "id": "cauliflower", "name": "Cauliflower", "today": { "modal": 2700, "min": 2100, "max": 3300 }, "yesterday": { "modal": 2800, "min": 2200, "max": 3400 } },
+        { "id": "okra", "name": "Okra (Bhendi)", "today": { "modal": 4300, "min": 3500, "max": 5100 }, "yesterday": { "modal": 4100, "min": 3300, "max": 4900 } },
+        { "id": "green_chilli", "name": "Green Chilli", "today": { "modal": 5300, "min": 4300, "max": 6300 }, "yesterday": { "modal": 5500, "min": 4500, "max": 6500 } },
+        { "id": "carrot", "name": "Carrot", "today": { "modal": 3100, "min": 2500, "max": 3700 }, "yesterday": { "modal": 3200, "min": 2600, "max": 3800 } },
+        { "id": "cucumber", "name": "Cucumber", "today": { "modal": 2100, "min": 1600, "max": 2600 }, "yesterday": { "modal": 2000, "min": 1500, "max": 2500 } },
+        { "id": "spinach", "name": "Spinach", "today": { "modal": 1900, "min": 1400, "max": 2400 }, "yesterday": { "modal": 1800, "min": 1300, "max": 2300 } },
+        { "id": "coriander", "name": "Coriander", "today": { "modal": 5100, "min": 4100, "max": 6100 }, "yesterday": { "modal": 5000, "min": 4000, "max": 6000 } },
+        { "id": "garlic", "name": "Garlic", "today": { "modal": 9200, "min": 7800, "max": 10600 }, "yesterday": { "modal": 9400, "min": 8000, "max": 10800 } },
+        { "id": "ginger", "name": "Ginger", "today": { "modal": 12200, "min": 10200, "max": 14200 }, "yesterday": { "modal": 12500, "min": 10500, "max": 14500 } },
+        { "id": "capsicum", "name": "Capsicum", "today": { "modal": 4600, "min": 3700, "max": 5500 }, "yesterday": { "modal": 4500, "min": 3600, "max": 5400 } }
+      ]
+    }
+  }
+}
